@@ -299,7 +299,7 @@ public class Login extends javax.swing.JFrame {
             }
 
         } catch (SQLException e) {
-            // Log error dengan detail
+            JOptionPane.showMessageDialog(this,"eror"+e.getMessage());
             fungsi.savelog("Error pada proses login - Username: " + user + " - Error: " + e.getMessage());
         }
         }

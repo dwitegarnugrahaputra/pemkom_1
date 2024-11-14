@@ -18,7 +18,7 @@ public class koneksi {
         try {
             MysqlDataSource m = new MysqlDataSource();
             m.setServerName("localhost");
-            m.setDatabaseName("pos"); 
+            m.setDatabaseName("post"); 
             m.setUser("root"); 
             m.setPassword(""); 
             m.setPortNumber(3306); 
